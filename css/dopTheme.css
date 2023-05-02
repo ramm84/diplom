@@ -1,0 +1,191 @@
+.dopTheme{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background: rgba(255, 255, 255, 0.623);
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+}
+.closeDopTheme{
+    position: absolute;
+    top: 13%;
+    left: 90%;
+    font-size: 3.1em;
+    cursor: pointer;
+}
+.wrapDopTheme{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+.wrapDopTheme h3{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #0B0E7F , #0B95DD);
+    -moz-border-image: -moz-linear-gradient(left, #0B0E7F , #0B95DD);
+    -webkit-border-image: -webkit-linear-gradient(left, #0B0E7F , #0B95DD);
+    border-image-slice: 1;
+    /* animation: borderGradient 9s infinite; */
+}
+.contentDopTheme{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes borderGradient {
+  0% {
+    border-image: linear-gradient(to right, #0B0E7F , #0B95DD);
+    -moz-border-image: -moz-linear-gradient(left, #0B0E7F , #0B95DD);
+    -webkit-border-image: -webkit-linear-gradient(left, #0B0E7F , #0B95DD);
+
+  }
+  25% {
+    border-image: linear-gradient(to right, #0b7f3f , #0bddba);
+    -moz-border-image: -moz-linear-gradient(left, #0b7f3f , #0bddba);
+    -webkit-border-image: -webkit-linear-gradient(left, #0b7f3f , #0bddba);
+
+  }
+  50% {
+    border-image: linear-gradient(to right, #7f430b , #82dd0b);
+    -moz-border-image: -moz-linear-gradient(left, #7f430b , #82dd0b);
+    -webkit-border-image: -webkit-linear-gradient(left, #7f430b , #82dd0b);
+
+  }
+  75% {
+    border-image: linear-gradient(to right, #7f0b62 , #dd120b);
+    -moz-border-image: -moz-linear-gradient(left, #7f0b62 , #dd120b);
+    -webkit-border-image: -webkit-linear-gradient(left, #7f0b62 , #dd120b);
+
+
+  }
+  100% {
+    border-image: linear-gradient(to right, #5e0b7f , #dd0b97);
+    -moz-border-image: -moz-linear-gradient(left, #5e0b7f , #dd0b97);
+    -webkit-border-image: -webkit-linear-gradient(left, #5e0b7f , #dd0b97);
+
+}
+}
+.helpp{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(255, 255, 255, 0.623);
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+.closeHelp{
+  position: absolute;
+  top: 13%;
+  left: 90%;
+  font-size: 3.1em;
+  cursor: pointer;
+}
+.wrapHelp{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3em;
+}
+.wrapHelp h3{
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, #0B0E7F , #0B95DD);
+  -moz-border-image: -moz-linear-gradient(left, #0B0E7F , #0B95DD);
+  -webkit-border-image: -webkit-linear-gradient(left, #0B0E7F , #0B95DD);
+  border-image-slice: 1;
+
+  /* animation: borderGradient 9s infinite; */
+}
+.contentHelp{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.contentHelp img{
+  padding-right: 30px;
+}
+.helpText{
+  font-size: 1.35vw;
+}
+
+
+
+.dopGloss{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(255, 255, 255, 0.767);
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+.closeDopGloss{
+  position: absolute;
+  top: 4%;
+  left: 90%;
+  font-size: 3.1em;
+  cursor: pointer;
+}
+.wrapDopGloss{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3em;
+}
+.wrapDopGloss h3{
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, #0B0E7F , #0B95DD);
+  -moz-border-image: -moz-linear-gradient(left, #0B0E7F , #0B95DD);
+  -webkit-border-image: -webkit-linear-gradient(left, #0B0E7F , #0B95DD);
+  border-image-slice: 1;
+  /* animation: borderGradient 9s infinite; */
+}
+.contentDopGloss{
+  width: 80%;
+  font-family: 'Times New Roman', Times, serif;
+}
+#literBlock{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.liter{
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 1.5vw;
+  height: 3vw;
+  width: 3vw;
+  background-color: #4400ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+}
+.liter:hover{
+  border: 1px solid #4400ff;
+  color: #4400ff;
+  background-color: white;
+  transition: .3s;
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+/*    СТИЛИ ШАПКИ                */
+
+header {
+    width: 100%;
+    background: white;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+    padding: 0px;
+    background: #F0F8FF;
+    position: relative;
+	text-align:center;
+}
+
+
+.blink{
+animation:1s blinker linear infinite;
+fill:red;
+}
+@keyframes blinker {
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+
+
+/* логотип */
+
+.logo {
+    display: block;
+    float: left;
+}
+
+.logo>img {
+    width: 150px;
+}
+
+
+/* меню */
+
+#menu {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    float: right;
+    margin-top: 12px;
+}
+
+#menu a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: block;
+    line-height: 25px;
+}
+
+#menu a:hover {
+    color: #2EE59D;
+}
+
+#menu a:link {
+    color: white;
+}
+
+#menu a:hover {
+    transform: rotate(-10deg) scale(0.9);
+    color: #2EE59D;
+}
+
+#header {
+    position: relative;
+    background: #9370DB;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,124 @@
+/*                       общие стили                       */
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out;
+    /* добавим плавность переходов для всех элементов страницы*/
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    
+    height: 80%;
+
+}
+
+
+/* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
+
+header:after,
+.container:after,
+footer:after,
+.widget-posts-list li:after,
+#subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* стилевой класс, который управляет шириной контейнера сетки*/
+
+.container {
+    
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: px;
+    background: white;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100%
+}
+
+#wrapper {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.header__menu {
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.breadcrumbs-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.breadcrumbs-item:not(:last-child):after {
+  content: ">";
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.breadcrumbs-link {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumbs-link:not(span):hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs-link.current {
+  color: #333;
+}
